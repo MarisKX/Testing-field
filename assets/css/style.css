@@ -21,10 +21,6 @@ body{
   background: linear-gradient(to right, rgba(192, 8, 24, 1.0) 2%, rgba(57, 59, 67, 1.0)10%,rgba(57, 59, 67, 1.0) 90%,rgba(192, 8, 24, 1.0) 98%);
 }
 
-.fa{
-  color: #f8f8fc;
-}
-
 
 /* navbar and header styles */
 
@@ -111,11 +107,6 @@ body{
   position: absolute;
 }
 
-/*   content section  */
-
-.section1{
-    color: blue;
-}
 
 /* footer section  */
 
