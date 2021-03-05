@@ -129,7 +129,7 @@ body{
 #copyright{
   color: #f8f8fc;
   font-size: 120%;
-  margin-left: 150px;
+  margin-left: 250px;
   padding-bottom: 15px;
 }
 
@@ -200,6 +200,9 @@ body{
      top: 280px;
      padding: 0px 10px 0px 5px;
 
+   }
+   #copyright{
+     margin-left: 35px;
    }
 }
 
