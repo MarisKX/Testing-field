@@ -1,0 +1,196 @@
+
+/* general styles and colors */
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+#main-image-frame{
+  background-color: #393b43;
+}
+
+.navbar-expand-xl{
+  background: linear-gradient(to right, rgba(192, 8, 24, 1.0) 2%, rgba(57, 59, 67, 0.0)10%,rgba(57, 59, 67, 0.0) 90%,rgba(192, 8, 24, 1.0) 98%);
+}
+
+/* navbar and header styles */
+
+.main-logo{
+  margin: 10px 55px 10px 55px;
+}
+
+.main-image{
+  height: 600px;
+  width: 100%;
+  background: linear-gradient(to right, rgba(57, 59, 67, 1.0) 10%, rgba(57, 59, 67, 0.0)20%,rgba(57, 59, 67, 0.0) 80%,rgba(57, 59, 67, 1.0) 90%),
+              url(https://raw.githubusercontent.com/MarisKX/Code-Institute-MS1/master/Actros-nieuw-2.jpg) no-repeat center center;
+}
+
+#main-image-frame{
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.nav-link{
+  margin: auto 5px;
+  width: 200px;
+  text-align: center;
+  color: #f8f8fc;
+  border-radius: 10px;
+  font-size: 200%;
+  height: inherit;
+}
+
+.nav-link:hover{
+  margin: auto 5px;
+  width: 200px;
+  text-align: center;
+  color: #393b43;
+  background-color: #f8f8fc;
+  border-radius: 10px;
+  height: inherit;
+}
+
+.navlink, .active{
+  margin: auto 5px;
+  background-color: #f8f8fc;
+  color: #393b43;
+  border-radius: 10px;
+  height: inherit;
+}
+
+.navbar-expand-xl{
+  height: 100px;
+  margin: 0;
+}
+
+#main-nav-container{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+
+.navbar-nav{
+  height: inherit;
+}
+
+.navbar-toggler{
+  color: white;
+}
+
+#navbarNavAltMarkup{
+  height: 100%;
+}
+
+#company-moto{
+  font-size: 130%;
+  font-family: 'Concert One';
+  color: #f8f8fc;
+
+  width: 500px;
+  height: 200px;
+
+  padding-top: 10px;
+  padding-left: 10px;
+
+
+  top: 450px;
+  left: 100px;
+
+  position: absolute;
+}
+
+
+/* responsive styles */
+
+/* company moto text adjustment */
+
+@media only screen and (max-width: 780px){
+  #company-moto{
+    width: 100%;
+    font-size: 120%;
+    margin-left: 5px;
+    margin-right: 5px;
+    left: 2px;
+    padding: 0px 10px 0px 5px;
+  }
+}
+
+
+/* active on mobile devices */
+
+@media only screen and (max-width: 780px)
+{
+  .navbar-toggler {
+    position: absolute;
+    top: .75em;
+    right: 0.75em;
+    background-color: #ffffff;
+    border: 2px solid #c00818;
+    border-radius: 0.25rem;
+   }
+   #main-nav-container{
+     display: none;
+   }
+   .navbar-expand-xl{
+     height: 20px;
+     background: linear-gradient(to right, rgba(192, 8, 24, 1.0) 0%, rgba(57, 59, 67, 0.0)35%,rgba(57, 59, 67, 0.0) 65%,rgba(192, 8, 24, 1.0) 100%);
+   }
+   #main-image-frame{
+     height: 620px;
+   }
+}
+
+/* active on tablets&PC */
+
+@media only screen and (min-width: 781px){
+  .navbar-toggler{
+    display: none;
+  }
+  .main-section{
+    color:red;
+  }
+
+
+/* active ONLY on PC */
+
+@media only screen and (min-width: 1600px){
+  #main-nav-container{
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+/* active on tablets and/or mobile */
+
+@media only screen and (max-width: 1200px){
+  .navbar-nav{
+    flex-direction: row;
+  }
+  .nav-link{
+    margin: auto 5px;
+    width: 150px;
+    text-align: center;
+    color: #f8f8fc;
+    border-radius: 5px;
+    font-size: 150%;
+  }
+
+  .nav-link:hover{
+    margin: auto 5px;
+    width: 150px;
+    text-align: center;
+    color: #393b43;
+    background-color: #f8f8fc;
+    border-radius: 5px;
+  }
+
+  .navlink, .active{
+    background-color: #f8f8fc;
+    color: #393b43;
+    border-radius: 5px;
+  }
+  .collapse:not(.show) {
+  display: inline-block;
+}
+}
